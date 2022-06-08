@@ -1,6 +1,6 @@
 # Entendendo Imports e Exports
 
-> Uma breve explicação sobre os conceitos par aos devs do módulo 2 do cruso de desenvolvimento da Kenzie Academy Brasil, dos quais sou / fui coach responsável
+> Uma breve explicação sobre os conceitos aos devs do módulo 2 do cruso de desenvolvimento da Kenzie Academy Brasil, dos quais sou / fui coach responsável
 
 ### Tópicos
 - Export deafult
