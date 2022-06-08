@@ -1,0 +1,121 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Header */
+
+header {
+  height: 20vh;
+  padding: 1.2rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  background-color: #e8e8e8;
+  box-shadow: 0 1px 5px -1px #888;
+}
+
+small a {
+  color: #333;
+}
+
+/* Main */
+
+main {
+  min-height: 80vh;
+  padding: 2%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.exemplos {
+  width: 60%;
+  min-height: 40vh;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 1px 1px 3px -1px #888 inset;
+}
+
+nav {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #8885;
+}
+
+nav ul {
+  width: 100%;
+  padding: 0.8rem 0;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+li a {
+  color: #333;
+}
+
+.conteudo {
+  width: 100%;
+  height: 60%;
+  margin: 0.5rem auto 0;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.conteudo article {
+  width: 40%;
+  margin: 0.8rem 0.8rem 0;
+  padding: 0.5rem;
+
+  border-radius: 5px;
+  background-color: #8883;
+  box-shadow: 1px 1px 5px -1px #888;
+}
+
+.conteudo article h3 {
+  margin: 0.8rem 0;
+}
+
+.exemplos button {
+  padding: 0 1rem;
+
+  border: none;
+}
+
+.botao-um {
+  background-color: #8883;
+}
+
+.botao-dois {
+  background-color: #8885;
+}
+
+.botao-tres {
+  background-color: #8887;
+}
